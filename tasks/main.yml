@@ -14,3 +14,6 @@
     owner: root
     group: root
     mode: 0644
+
+- name: Logwatch | Create cache directory
+  file: path=/var/cache/logwatch state=directory mode=0755
