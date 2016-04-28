@@ -15,4 +15,6 @@ galaxy_info:
   - monitoring
 
 dependencies:
-  - ANXS.perl
+  - src: 'https://github.com/briandbecker/ansible-role-perl.git'
+    scm: 'git'
+    version: 'v1.0.2.1'
