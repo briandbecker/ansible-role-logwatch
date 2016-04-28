@@ -15,6 +15,7 @@ galaxy_info:
   - monitoring
 
 dependencies:
-  - src: 'https://github.com/briandbecker/ansible-role-perl.git'
-    scm: 'git'
-    version: 'v1.0.2.1'
+  - name: "ansible-role-perl"
+    src: "https://github.com/briandbecker/ansible-role-perl.git"
+    scm: "git"
+    version: "v1.0.2.1"
